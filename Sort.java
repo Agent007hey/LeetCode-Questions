@@ -1,3 +1,12 @@
+// LeetCode 75: Sort Colors
+// Approach:
+// 1. Move all 0s to the beginning.
+// 2. Starting from the next available position, move all 1s.
+// 3. Remaining elements are automatically 2s.
+//
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
 public class Sort {
   public static void sortColors(int nums[]) {
     // sorting for zero
